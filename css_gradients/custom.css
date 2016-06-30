@@ -1,0 +1,38 @@
+html{
+
+	font-family: "Roboto";
+	font-size: 18px;
+	color: white;
+	margin: 0 auto;
+	width: 600px;
+
+}
+*{
+	margin-bottom: 1rem;
+}
+.main{
+	height: 500px;
+	width: 500px;
+	background: radial-gradient(circle, rebeccapurple, red);
+
+	/* background: linear-gradient(from top left, white, lightblue); */
+}
+
+button{
+	height: 60px;
+	width: 160px;
+	color: white;
+	background-color: tomato;
+	box-shadow: 5px gray;
+	outline: none;
+	font-size: 1.4rem;
+	content: "More";
+	transition-duration: 1000ms;
+}
+
+button:hover{
+	transition-property: background-color, content;
+	transition-duration: 1000ms;
+	background-color: steelblue;
+	content: "Click for more";
+}
